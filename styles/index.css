@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+
+  display: grid;
+  grid-template-columns: 200px 1fr;
+
+  gap: 16px;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+h1,
+h2 {
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
+
+label + input:not([type="radio"]),
+input:not([type="radio"]),
+select {
+  display: block;
+
+  margin-bottom: 8px;
+}
+
+.md-shadow {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.vet-sidebar {
+  padding: 8px;
+
+  background-color: #eee;
+}
+
+#create-vet-form,
+#create-animal-form {
+  padding: 8px 0;
+
+  margin-bottom: 16px;
+
+  border-bottom: 2px solid black;
+}
+
+.vet-list li {
+  padding: 16px 0;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+
+  border-top: 1px solid black;
+}
+
+.vet-list {
+  border-bottom: 1px solid black;
+}
+
+.animalLi {
+  border: 2px dashed black;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+.auto-columns {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+
+.animal-h3 {
+  font-size: 3ch
+}
